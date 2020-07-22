@@ -151,6 +151,23 @@ def getblog():
     blog = blog_collection.find({}, {'_id': 0})
     blog_list = list(blog)
     return jsonify(blog_list)
+    
+@app.route("/addblog", methods=["POST"])
+def addblog():
+    get_user_data = request.get_json()
+    title = get_user_data["title"]
+    author = get_user_data["author"]
+    desc = get_user_data["desc"]
+    if not get_user_data:
+        err = {'ERROR': 'No data passed'}
+        return jsonify(err)
+    else:
+        lastid = database.blogs.find().sort([("_id",-1)]).limit(1)
+        id = int(lastid [0]["id"]) + 1
+        
+        print(id)
+        database.blogs.insert({'id': str(id),'title': title,'author': author, 'desc': desc})
+        return jsonify("User added successfully!..")
 
 @app.route("/put", methods=["PUT"])
 def put():
