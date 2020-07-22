@@ -141,3 +141,75 @@
 12:48:10 INFO app Thread-48 : Processing Login...
 12:48:12 INFO app Thread-50 : Processing Logout...
 13:31:18 INFO app Thread-52 : Processing Login...
+18:00:09 INFO werkzeug MainThread :  * Restarting with stat
+18:00:10 WARNING werkzeug MainThread :  * Debugger is active!
+18:00:10 INFO werkzeug MainThread :  * Debugger PIN: 804-576-205
+18:00:10 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+19:34:22 INFO werkzeug MainThread :  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+19:34:23 INFO werkzeug MainThread :  * Restarting with stat
+20:35:49 INFO werkzeug MainThread :  * Restarting with stat
+20:35:51 WARNING werkzeug MainThread :  * Debugger is active!
+20:35:51 INFO werkzeug MainThread :  * Debugger PIN: 804-576-205
+20:35:51 INFO werkzeug Thread-1 :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+20:49:18 INFO werkzeug Thread-2 : 127.0.0.1 - - [21/Jul/2020 20:49:18] "[37mPUT /put HTTP/1.1[0m" 200 -
+20:49:24 INFO werkzeug Thread-3 : 127.0.0.1 - - [21/Jul/2020 20:49:24] "[37mPUT /put HTTP/1.1[0m" 200 -
+20:49:44 INFO werkzeug Thread-4 : 127.0.0.1 - - [21/Jul/2020 20:49:44] "[37mPUT /put HTTP/1.1[0m" 200 -
+20:50:50 INFO werkzeug Thread-6 : 127.0.0.1 - - [21/Jul/2020 20:50:50] "[37mPUT /put HTTP/1.1[0m" 200 -
+20:51:57 INFO werkzeug Thread-8 : 127.0.0.1 - - [21/Jul/2020 20:51:57] "[37mOPTIONS /put HTTP/1.1[0m" 200 -
+20:51:58 INFO werkzeug Thread-9 : 127.0.0.1 - - [21/Jul/2020 20:51:58] "[31m[1mPOST /put HTTP/1.1[0m" 405 -
+20:54:44 INFO werkzeug Thread-11 : 127.0.0.1 - - [21/Jul/2020 20:54:44] "[37mOPTIONS /put HTTP/1.1[0m" 200 -
+20:54:44 INFO werkzeug Thread-12 : 127.0.0.1 - - [21/Jul/2020 20:54:44] "[35m[1mPUT /put HTTP/1.1[0m" 500 -
+20:55:26 INFO werkzeug MainThread :  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+20:55:27 INFO werkzeug MainThread :  * Restarting with stat
+20:55:29 WARNING werkzeug MainThread :  * Debugger is active!
+20:55:30 INFO werkzeug MainThread :  * Debugger PIN: 804-576-205
+20:55:30 INFO werkzeug Thread-1 :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+20:55:46 INFO werkzeug Thread-2 : 127.0.0.1 - - [21/Jul/2020 20:55:46] "[37mOPTIONS /put HTTP/1.1[0m" 200 -
+20:56:55 INFO werkzeug MainThread :  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+20:56:55 INFO werkzeug MainThread :  * Restarting with stat
+20:56:58 WARNING werkzeug MainThread :  * Debugger is active!
+20:56:58 INFO werkzeug MainThread :  * Debugger PIN: 804-576-205
+20:56:58 INFO werkzeug Thread-1 :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+20:57:37 INFO werkzeug Thread-2 : 127.0.0.1 - - [21/Jul/2020 20:57:37] "[37mOPTIONS /put HTTP/1.1[0m" 200 -
+20:57:37 INFO werkzeug Thread-3 : 127.0.0.1 - - [21/Jul/2020 20:57:37] "[35m[1mPUT /put HTTP/1.1[0m" 500 -
+20:57:38 INFO werkzeug Thread-4 : 127.0.0.1 - - [21/Jul/2020 20:57:38] "[35m[1mPUT /put HTTP/1.1[0m" 500 -
+20:58:36 INFO werkzeug MainThread :  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+20:58:36 INFO werkzeug MainThread :  * Restarting with stat
+20:58:39 WARNING werkzeug MainThread :  * Debugger is active!
+20:58:39 INFO werkzeug MainThread :  * Debugger PIN: 804-576-205
+20:58:39 INFO werkzeug Thread-1 :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+20:59:48 INFO werkzeug Thread-2 : 127.0.0.1 - - [21/Jul/2020 20:59:48] "[37mOPTIONS /put HTTP/1.1[0m" 200 -
+20:59:49 INFO werkzeug Thread-3 : 127.0.0.1 - - [21/Jul/2020 20:59:49] "[35m[1mPUT /put HTTP/1.1[0m" 500 -
+21:14:49 INFO werkzeug MainThread :  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+21:14:50 INFO werkzeug MainThread :  * Restarting with stat
+21:14:52 WARNING werkzeug MainThread :  * Debugger is active!
+21:14:52 INFO werkzeug MainThread :  * Debugger PIN: 804-576-205
+21:14:52 INFO werkzeug Thread-1 :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21:16:22 INFO werkzeug Thread-2 : 127.0.0.1 - - [21/Jul/2020 21:16:22] "[37mOPTIONS /put HTTP/1.1[0m" 200 -
+21:16:22 INFO werkzeug Thread-3 : 127.0.0.1 - - [21/Jul/2020 21:16:22] "[35m[1mPUT /put HTTP/1.1[0m" 500 -
+21:18:33 INFO werkzeug MainThread :  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+21:18:33 INFO werkzeug MainThread :  * Restarting with stat
+21:18:35 WARNING werkzeug MainThread :  * Debugger is active!
+21:18:36 INFO werkzeug MainThread :  * Debugger PIN: 804-576-205
+21:18:36 INFO werkzeug Thread-1 :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21:18:43 INFO werkzeug MainThread :  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+21:18:43 INFO werkzeug MainThread :  * Restarting with stat
+21:18:45 WARNING werkzeug MainThread :  * Debugger is active!
+21:18:45 INFO werkzeug MainThread :  * Debugger PIN: 804-576-205
+21:18:45 INFO werkzeug Thread-1 :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21:27:19 WARNING werkzeug MainThread :  * Debugger is active!
+21:27:19 INFO werkzeug MainThread :  * Debugger PIN: 804-576-205
+21:27:19 INFO werkzeug Thread-2 :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:27:21 INFO werkzeug MainThread :  * Restarting with stat
+21:36:33 INFO app Thread-4 : Processing Signup...
+21:38:43 INFO app Thread-7 : Processing Signup...
+21:53:31 INFO app Thread-4 : Processing Signup...
+21:54:37 INFO app Thread-7 : Processing Signup...
+08:09:02 INFO app Thread-4 : Processing Signup...
+08:09:09 INFO app Thread-6 : Processing Signup...
+08:09:15 INFO app Thread-8 : Processing Signup...
+08:09:15 INFO app Thread-9 : Processing Signup...
+08:10:31 INFO app Thread-4 : Processing Signup...
+08:11:12 INFO app Thread-6 : Processing Signup...
+08:23:37 INFO app Thread-4 : Processing Signup...
+08:24:59 INFO app Thread-4 : Processing Signup...

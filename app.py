@@ -1,4 +1,5 @@
 import os
+import pymongo
 from flask import Flask, jsonify, request, flash
 from flask_mail import Mail
 from flask_cors import CORS
@@ -22,8 +23,8 @@ app.config['MAIL_SERVER'] = 'smtp.sendgrid.net'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'apikey'
-#app.config['MAIL_PASSWORD'] = os.environ.get('SENDGRID_API_KEY')
-#app.config['MAIL_DEFAULT_SENDER'] = os.environ.get('MAIL_DEFAULT_SENDER')
+app.config['MAIL_PASSWORD'] = os.environ.get('SENDGRID_API_KEY')
+app.config['MAIL_DEFAULT_SENDER'] = os.environ.get('MAIL_DEFAULT_SENDER')
 
 mail = Mail(app)
 CORS(app)
@@ -32,6 +33,9 @@ bcrypt = Bcrypt(app)
 MONGODB_URI = os.environ.get('MONGODB_URI_PART1') # add db url
 client = MongoClient(MONGODB_URI + '&w=majority')
 database = client.rentalvista
+
+#client = pymongo.MongoClient("mongodb+srv://testuser:test123@tutorial6-ju5ov.mongodb.net/web?retryWrites=true&w=majority")
+#database = client.web
 
 def authentication(auth):
     @wraps(auth)
@@ -140,7 +144,34 @@ def logout():
     user = database.user
     deniedToken = database.deniedTokens
     return logout_user(token, user, deniedToken)
+    
+@app.route("/getblog", methods=["GET"])
+def getblog():
+    blog_collection = database.blogs
+    blog = blog_collection.find({}, {'_id': 0})
+    blog_list = list(blog)
+    return jsonify(blog_list)
 
+@app.route("/put", methods=["PUT"])
+def put():
+    get_user_data = request.get_json()
+    username = str(get_user_data["username"])
+    new_name = get_user_data["newname"]
+    if not get_user_data:
+        err = {'ERROR': 'No data passed'}
+        return jsonify(err)
+    else:
+        # If username is passed and is found in db, replace it with the new value
+        if username:
+            if db.users.find_one({'username': username}):
+                db.users.update_one({'username': username}, {
+                                    "$set": {'username': new_name}})
+                return {'response': 'Username:'+str(username)+' updated with username:'+str(new_name)}
+            else:
+                return {'Error': 'Username ' + str(username) + ' not found'}
+
+        else:
+            return {'response': 'Username missing'}
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=5000, debug=True)

@@ -140,3 +140,75 @@
 12:48:10-app.py-app-app: Processing Login...
 12:48:12-app.py-app-app: Processing Logout...
 13:31:18-app.py-app-app: Processing Login...
+18:00:09-_internal.py-_internal-werkzeug:  * Restarting with stat
+18:00:10-_internal.py-_internal-werkzeug:  * Debugger is active!
+18:00:10-_internal.py-_internal-werkzeug:  * Debugger PIN: 804-576-205
+18:00:10-_internal.py-_internal-werkzeug:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+19:34:22-_internal.py-_internal-werkzeug:  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+19:34:23-_internal.py-_internal-werkzeug:  * Restarting with stat
+20:35:49-_internal.py-_internal-werkzeug:  * Restarting with stat
+20:35:51-_internal.py-_internal-werkzeug:  * Debugger is active!
+20:35:51-_internal.py-_internal-werkzeug:  * Debugger PIN: 804-576-205
+20:35:51-_internal.py-_internal-werkzeug:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+20:49:18-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:49:18] "[37mPUT /put HTTP/1.1[0m" 200 -
+20:49:24-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:49:24] "[37mPUT /put HTTP/1.1[0m" 200 -
+20:49:44-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:49:44] "[37mPUT /put HTTP/1.1[0m" 200 -
+20:50:50-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:50:50] "[37mPUT /put HTTP/1.1[0m" 200 -
+20:51:57-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:51:57] "[37mOPTIONS /put HTTP/1.1[0m" 200 -
+20:51:58-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:51:58] "[31m[1mPOST /put HTTP/1.1[0m" 405 -
+20:54:44-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:54:44] "[37mOPTIONS /put HTTP/1.1[0m" 200 -
+20:54:44-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:54:44] "[35m[1mPUT /put HTTP/1.1[0m" 500 -
+20:55:26-_internal.py-_internal-werkzeug:  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+20:55:27-_internal.py-_internal-werkzeug:  * Restarting with stat
+20:55:29-_internal.py-_internal-werkzeug:  * Debugger is active!
+20:55:30-_internal.py-_internal-werkzeug:  * Debugger PIN: 804-576-205
+20:55:30-_internal.py-_internal-werkzeug:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+20:55:46-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:55:46] "[37mOPTIONS /put HTTP/1.1[0m" 200 -
+20:56:55-_internal.py-_internal-werkzeug:  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+20:56:55-_internal.py-_internal-werkzeug:  * Restarting with stat
+20:56:58-_internal.py-_internal-werkzeug:  * Debugger is active!
+20:56:58-_internal.py-_internal-werkzeug:  * Debugger PIN: 804-576-205
+20:56:58-_internal.py-_internal-werkzeug:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+20:57:37-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:57:37] "[37mOPTIONS /put HTTP/1.1[0m" 200 -
+20:57:37-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:57:37] "[35m[1mPUT /put HTTP/1.1[0m" 500 -
+20:57:38-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:57:38] "[35m[1mPUT /put HTTP/1.1[0m" 500 -
+20:58:36-_internal.py-_internal-werkzeug:  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+20:58:36-_internal.py-_internal-werkzeug:  * Restarting with stat
+20:58:39-_internal.py-_internal-werkzeug:  * Debugger is active!
+20:58:39-_internal.py-_internal-werkzeug:  * Debugger PIN: 804-576-205
+20:58:39-_internal.py-_internal-werkzeug:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+20:59:48-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:59:48] "[37mOPTIONS /put HTTP/1.1[0m" 200 -
+20:59:49-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 20:59:49] "[35m[1mPUT /put HTTP/1.1[0m" 500 -
+21:14:49-_internal.py-_internal-werkzeug:  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+21:14:50-_internal.py-_internal-werkzeug:  * Restarting with stat
+21:14:52-_internal.py-_internal-werkzeug:  * Debugger is active!
+21:14:52-_internal.py-_internal-werkzeug:  * Debugger PIN: 804-576-205
+21:14:52-_internal.py-_internal-werkzeug:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21:16:22-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 21:16:22] "[37mOPTIONS /put HTTP/1.1[0m" 200 -
+21:16:22-_internal.py-_internal-werkzeug: 127.0.0.1 - - [21/Jul/2020 21:16:22] "[35m[1mPUT /put HTTP/1.1[0m" 500 -
+21:18:33-_internal.py-_internal-werkzeug:  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+21:18:33-_internal.py-_internal-werkzeug:  * Restarting with stat
+21:18:35-_internal.py-_internal-werkzeug:  * Debugger is active!
+21:18:36-_internal.py-_internal-werkzeug:  * Debugger PIN: 804-576-205
+21:18:36-_internal.py-_internal-werkzeug:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21:18:43-_internal.py-_internal-werkzeug:  * Detected change in 'E:\\adv web\\Assignement4\\Assignment4\\rentalvista-backend\\app.py', reloading
+21:18:43-_internal.py-_internal-werkzeug:  * Restarting with stat
+21:18:45-_internal.py-_internal-werkzeug:  * Debugger is active!
+21:18:45-_internal.py-_internal-werkzeug:  * Debugger PIN: 804-576-205
+21:18:45-_internal.py-_internal-werkzeug:  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21:27:19-_internal.py-_internal-werkzeug:  * Debugger is active!
+21:27:19-_internal.py-_internal-werkzeug:  * Debugger PIN: 804-576-205
+21:27:19-_internal.py-_internal-werkzeug:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21:27:21-_internal.py-_internal-werkzeug:  * Restarting with stat
+21:36:33-app.py-app-app: Processing Signup...
+21:38:43-app.py-app-app: Processing Signup...
+21:53:31-app.py-app-app: Processing Signup...
+21:54:37-app.py-app-app: Processing Signup...
+08:09:02-app.py-app-app: Processing Signup...
+08:09:09-app.py-app-app: Processing Signup...
+08:09:15-app.py-app-app: Processing Signup...
+08:09:15-app.py-app-app: Processing Signup...
+08:10:31-app.py-app-app: Processing Signup...
+08:11:12-app.py-app-app: Processing Signup...
+08:23:37-app.py-app-app: Processing Signup...
+08:24:59-app.py-app-app: Processing Signup...
