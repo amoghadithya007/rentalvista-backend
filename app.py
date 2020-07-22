@@ -166,8 +166,11 @@ def addblog():
         id = int(lastid [0]["id"]) + 1
         
         print(id)
-        database.blogs.insert({'id': str(id),'title': title,'author': author, 'desc': desc})
-        return jsonify("User added successfully!..")
+        if database.blogs.find_one({'title': title}):
+            return jsonify("Blog Title already present, cannot add")
+        else:
+            database.blogs.insert({'id': str(id),'title': title,'author': author, 'desc': desc})
+            return jsonify("User added successfully!..")
 
 @app.route("/put", methods=["PUT"])
 def put():
