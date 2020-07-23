@@ -194,26 +194,27 @@ def deleteblog():
             return jsonify("Record not found!")
 
 
-@app.route("/put", methods=["PUT"])
-def put():
-    get_user_data = request.get_json()
-    username = str(get_user_data["username"])
-    new_name = get_user_data["newname"]
-    if not get_user_data:
+@app.route("/editblog", methods=["PUT"])
+def editblog():
+    data = request.get_json()
+    title = data["title"]
+    author = data["author"]
+    desc = data["desc"]
+    if not data:
         err = {'ERROR': 'No data passed'}
         return jsonify(err)
     else:
-        # If username is passed and is found in db, replace it with the new value
-        if username:
-            if db.users.find_one({'username': username}):
-                db.users.update_one({'username': username}, {
-                                    "$set": {'username': new_name}})
-                return {'response': 'Username:'+str(username)+' updated with username:'+str(new_name)}
+        # If Author is passed and is found in db, replace it with the new value
+        if title:
+            if database.blogs.find_one({'author': author}):
+                database.blogs.update_one({'author': author}, {
+                                    "$set": {'title': title,'desc': desc,'author': author}})
+                return jsonify ('Blog updated Successfully!')
             else:
-                return {'Error': 'Username ' + str(username) + ' not found'}
+                return jsonify ("Author not found")
 
         else:
-            return {'response': 'Username missing'}
+            return {'response': 'Title missing'}
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=5000, debug=True)
