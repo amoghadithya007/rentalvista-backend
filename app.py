@@ -171,6 +171,28 @@ def addblog():
         else:
             database.blogs.insert({'id': str(id),'title': title,'author': author, 'desc': desc})
             return jsonify("User added successfully!..")
+            
+@app.route("/deleteblog", methods=["POST"])
+def deleteblog():
+    data = request.get_json()
+    title = data["title"]
+    author = data["author"]
+    desc = data["desc"]
+    if not data:
+        err = {'ERROR': 'No data passed'}
+        return jsonify(err)
+    else:
+        lastid = database.blogs.find().sort([("_id",-1)]).limit(1)
+        id = int(lastid [0]["id"]) + 1
+        
+        print(id)
+        if database.blogs.find_one({'title': title}):
+            delb = database.blogs.find_one({'title': title})
+            database.blogs.delete_one(delb)
+            return jsonify("Blog deleted")
+        else:            
+            return jsonify("Record not found!")
+
 
 @app.route("/put", methods=["PUT"])
 def put():
