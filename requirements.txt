@@ -19,4 +19,4 @@ python-dotenv==0.14.0
 redis==3.5.3
 rq==1.4.3
 six==1.15.0
-Werkzeug==3.0.3
+Werkzeug==3.0.6
